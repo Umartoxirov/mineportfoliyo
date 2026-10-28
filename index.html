@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Umar Toxirov — Frontend Developer</title>
+  <meta name="description" content="Umar Toxirov — Frontend Developer portfolio sayti.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container bar">
+      <a href="#bosh" class="logo">UMAR<span>.</span></a>
+      <nav class="nav" id="nav" aria-label="Asosiy menyu">
+        <a href="#bosh" data-s="bosh">Bosh sahifa</a>
+        <a href="#haqimda" data-s="haqimda">Men haqimda</a>
+        <a href="#konikmalar" data-s="konikmalar">Ko‘nikmalar</a>
+        <a href="#loyihalar" data-s="loyihalar">Loyihalar</a>
+        <a href="#boglanish" data-s="boglanish">Bog‘lanish</a>
+      </nav>
+      <div class="tools">
+        <button class="btn-sm" id="testBtn" type="button">Responsive test</button>
+        <button class="icon-btn" id="themeBtn" type="button" aria-label="Mavzuni almashtirish">◐</button>
+        <button class="icon-btn burger" id="burger" type="button" aria-label="Menyu"
+          aria-expanded="false"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="bosh">
+      <div class="glow g1"></div>
+      <div class="glow g2"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <span class="tag"><b></b> O‘rganish va rivojlanish yo‘lida</span>
+          <h1>Salom, men <em>Umarman!</em></h1>
+          <p class="lead">Men zamonaviy va qulay web saytlar yaratishga intilayotgan Frontend Developerman.</p>
+          <p>Hozir web dasturlashni o‘rganyapman: HTML va CSS bilimlarim bor, JavaScriptni mustahkamlayapman. Maqsadim —
+            sifatli saytlar yaratadigan professional dasturchi bo‘lish.</p>
+          <div class="actions">
+            <a href="#loyihalar" class="btn primary">Loyihalarimni ko‘rish</a>
+            <a href="#boglanish" class="btn ghost">Men bilan bog‘lanish</a>
+          </div>
+        </div>
+        <div class="hero-vis reveal" aria-hidden="true">
+          <div class="code-win">
+            <div class="win-bar"><i></i><i></i><i></i><span>portfolio.js</span></div>
+            <pre><code><span class="c">// Umar Toxirov</span>
+<span class="k">const</span> umar = {
+  kasb: <span class="s">"Frontend Developer"</span>,
+  biladi: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>],
+  organyapti: <span class="s">"JavaScript"</span>,
+  maqsad: <span class="s">"Professional bo‘lish"</span>
+};
+
+<span class="k">function</span> <span class="f">yarat</span>(g‘oya) {
+  <span class="k">return</span> sifat + dizayn;<span class="cur"></span>
+}</code></pre>
+          </div>
+          <div class="chip c1">&lt;html&gt;</div>
+          <div class="chip c2">{ css }</div>
+          <div class="chip c3">js()</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="haqimda">
+      <div class="container">
+        <div class="head reveal"><span class="eyebrow">01 / Men haqimda</span>
+          <h2>Men kimman?</h2>
+        </div>
+        <div class="grid">
+          <article class="card reveal">
+            <h3>Men haqimda</h3>
+            <p>Ismim Umar Toxirov. Frontend Developer yo‘nalishida o‘qiyapman va web saytlarning ko‘rinishi hamda
+              qulayligi meni juda qiziqtiradi.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Dasturlashni o‘rganishim</h3>
+            <p>HTML va CSS asoslarini o‘rgandim, hozir JavaScript ustida ishlayapman. Har kuni kichik amaliy mashqlar
+              qilib, bilimimni mustahkamlayman.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Qiziqishlarim</h3>
+            <p>Zamonaviy dizayn, toza kod va foydalanuvchiga qulay interfeyslar. Yangi texnologiyalarni sinab ko‘rishni
+              yaxshi ko‘raman.</p>
+          </article>
+          <article class="card wide reveal">
+            <h3>Kelajakdagi maqsadlarim</h3>
+            <p>Professional dasturchi bo‘lish, real loyihalarda tajriba orttirish va mijozlar uchun sifatli, tez va
+              chiroyli web saytlar yaratish.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="konikmalar">
+      <div class="container">
+        <div class="head reveal"><span class="eyebrow">02 / Ko‘nikmalar</span>
+          <h2>Texnologiyalar</h2>
+          <p class="sub">Daraja haqiqiy holatni ko‘rsatadi — men doim o‘sishda davom etyapman.</p>
+        </div>
+        <div class="grid">
+          <article class="card skill reveal">
+            <svg viewBox="0 0 48 48" class="ico">
+              <path d="M18 14 8 24l10 10M30 14l10 10-10 10M27 10l-6 28" fill="none" stroke="currentColor"
+                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h3>HTML</h3>
+            <p>Sahifalarni semantik teglar bilan to‘g‘ri tuzish va tartibli tuzilma yaratish.</p>
+            <div class="lvl" data-l="3"><i></i><i></i><i></i><i></i><i></i></div><small>Asosiy bilimlar bor</small>
+          </article>
+          <article class="card skill reveal">
+            <svg viewBox="0 0 48 48" class="ico">
+              <path d="M10 8h28l-3 30-11 4-11-4z" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linejoin="round" />
+              <path d="M17 17h14M18 25h12M19 32l5 2 5-2" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h3>CSS</h3>
+            <p>Flexbox, Grid, responsive dizayn, gradient va animatsiyalar bilan ishlash.</p>
+            <div class="lvl" data-l="3"><i></i><i></i><i></i><i></i><i></i></div><small>Asosiy bilimlar bor</small>
+          </article>
+          <article class="card skill reveal">
+            <svg viewBox="0 0 48 48" class="ico">
+              <rect x="7" y="7" width="34" height="34" rx="6" fill="none" stroke="currentColor" stroke-width="3" />
+              <path d="M20 19v10a3 3 0 0 1-6 0M27 31c1 2 6 2 6-1.500 0-4-6-2.500-6-6 0-3 5-3 6-1" fill="none"
+                stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <h3>JavaScript</h3>
+            <p>Hodisalar, DOM bilan ishlash va oddiy interaktiv funksiyalar yaratishni o‘rganyapman.</p>
+            <div class="lvl" data-l="1"><i></i><i></i><i></i><i></i><i></i></div><small>O‘rganish jarayonida</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="loyihalar">
+      <div class="container">
+        <div class="head reveal"><span class="eyebrow">03 / Loyihalar</span>
+          <h2>Loyihalarim</h2>
+          <p class="sub">Loyiha havolalarini <code>script.js</code> faylidagi ro‘yxatdan almashtirasiz.</p>
+        </div>
+        <div class="grid" id="projects"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="nega">
+      <div class="container">
+        <div class="head reveal"><span class="eyebrow">04 / Nega men?</span>
+          <h2>Mening yondashuvim</h2>
+        </div>
+        <div class="grid">
+          <article class="card why reveal"><b>01</b>
+            <h3>Mas’uliyat</h3>
+            <p>Boshlagan ishimni sifatli yakunlayman va va’dalarimga sodiq qolaman.</p>
+          </article>
+          <article class="card why reveal"><b>02</b>
+            <h3>O‘rganishga intilish</h3>
+            <p>Har kuni yangi narsa o‘rganaman va xatolarimdan xulosa chiqaraman.</p>
+          </article>
+          <article class="card why reveal"><b>03</b>
+            <h3>Zamonaviy dizayn</h3>
+            <p>Chiroyli, bir-biriga mos va qulay interfeyslar yaratishga e’tibor beraman.</p>
+          </article>
+          <article class="card why reveal"><b>04</b>
+            <h3>Sifatli kod</h3>
+            <p>Kodni toza, tushunarli va keyin osongina o‘zgartiriladigan qilib yozaman.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="boglanish">
+      <div class="container">
+        <div class="head reveal"><span class="eyebrow">05 / Bog‘lanish</span>
+          <h2>Keling, tanishamiz</h2>
+        </div>
+        <div class="contact reveal">
+          <p>Loyiha yoki hamkorlik bo‘yicha taklifingiz bo‘lsa, Telegram orqali yozing — tez javob berishga harakat
+            qilaman.</p>
+          <div class="actions">
+            <a class="btn primary" href="https://t.me/umarweb_uz" target="_blank" rel="noopener noreferrer">Telegram
+              orqali yozish</a>
+            <button class="btn ghost" id="copyBtn" type="button">@toxirov_umar</button>
+          </div>
+          <div class="mail"><span>Email:</span> <span id="emailBox"></span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <a href="#bosh" class="logo">UMAR<span>.</span></a>
+      <nav class="fnav" aria-label="Footer menyu">
+        <a href="#haqimda">Men haqimda</a><a href="#konikmalar">Ko‘nikmalar</a><a href="#loyihalar">Loyihalar</a><a
+          href="@toxirov_umar">Bog‘lanish</a>
+        <a href="https://t.me/umarweb_uz" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://www.instagram.com/_toxirov.u/">Instagram</a>
+      </nav>
+      <p>© 2026 Umar Toxirov. Barcha huquqlar himoyalangan.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Tepaga qaytish">↑</button>
+  <div class="toast" id="toast" role="status"></div>
+
+  <div class="rt" id="rt" hidden>
+    <div class="rt-bar">
+      <div class="rt-sizes" id="rtSizes"></div>
+      <span class="rt-info" id="rtInfo"></span>
+      <button class="btn-sm" id="rtClose" type="button">Asl ko‘rinishga qaytish</button>
+    </div>
+    <div class="rt-stage" id="rtStage"><iframe id="rtFrame" title="Responsive preview"></iframe></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
